@@ -4,8 +4,6 @@
 
 ## Project Background
 
-
-
 ### General Background
 Statistically speaking, there were 352 cases of Missing Motor Vehicles in Hong Kong during the period of Jan-Jun 2022 <sup>\[1\]</sup>. This is a phenomenon that is common in urban cities. In Europe, Missing Motor Vehicles caused 7.4 billion Dollars worth of damages in 2020 <sup>\[2\]</sup>.  
 The current issue with Motor Vehicles Theft is that most countries still rely on old methods for identifying and tracking down stolen vehicles. For example in the United Kindom, law enforcement relies on methods such as random street checks, licence plate checking of stolen vehicles and tips from third-party websites <sup>\[3\]</sup>.
@@ -77,14 +75,6 @@ We also plan to use Keras auto-tuning to help us decide on appropriate hyperpara
 The project will SQLAlchemy for the database engine, but we might change it if we find a better option in the future.  
 While the current schema design has not yet been finalized, we plan to make use of a "distance-mechanism" to help calculate the closest match. This may help the model avoid the pitfall of false negatives.
 
-<!-- 
-##### 4.e. API Design
-##### 4.f. Geospatial Visualization 
-##### 4.g. User Interface design
-
-#### 5. Data Collection
-#### 6. Feature Extraction and Feature Engineering 
--->
 #### 5. Model Training Design
 We plan to use a Stratified K-Fold method for training our model and plan to score it against an F1 score. By scoring our model against an F1 score we can make achieve an accurate understanding of performance while taking false positives and false negatives into account.
 
@@ -94,7 +84,17 @@ For this project, we will deploy the model onto an AWS server so that we can tes
 We will also be able to test the models' ability of parallelization.
 
 ### Project Schedule and Milestones
-<!-- The tentative schedule of the project, i.e. when and what will be achieved at various stages of the project. -->
+Milestone | Expected Date
+:---|:---:
+Proposal Creation | 02/10/2022
+Website Creation | 02/10/2022
+Data Collection | 23/10/2022
+Model Creation | 25/10/2022
+Data Labelling | 30/10/2022
+Preliminary Model Testing and Tuning | 13/11/2022
+Interim Report | 25/11/2022
+
+
 ## Bibliography IEEE Standard
 1. https://www.police.gov.hk/ppp_en/09_statistics/csc.html
 2. https://en.wikipedia.org/wiki/Motor_vehicle_theft
