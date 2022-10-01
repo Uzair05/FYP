@@ -7,13 +7,44 @@
         <meta name="description" content="FYP Project for the HKU"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- <script type="text/javascript" src="./Files/Js/index.js"></script>  -->
-        <link rel="stylesheet" href="./Files/Css/style.css"/>
+        <!-- <link rel="stylesheet" href="./Files/Css/style.css"/> -->
+        <style>
+            body {
+                background-color: #E5FFF6;
+                margin: 4% 10% 4% 10%;
+            }
+            table, td, th {
+                border: 2px solid black;
+                background-color: #F6F4F1;
+            }
+            td, th {
+                text-align: center;
+                padding: 10px;
+            }
+
+            #projectTitle {
+                text-align: center;
+            }
+        </style>
     </head>
     <body>
         <header><h1 id="projectTitle">FYP Project - AI Model for Vehicle Identification and Tracking</h1></header>
         <main>
         <section>
             <header><h2>Project Information</h2></header>
+            <div>
+                <header><h3>Supervisor and Students</h3></header>
+                <p>
+                    <b>Supervisor: </b>Dr. Tat Wing Chim [<a href="mailto:twchim@cs.hku.hk">Email</a>]
+                </p>
+                <p>
+                    <b>Students:</b><br>
+                    <ul>
+                        <li>ASIM, Uzair Bin Colangoy [<a href="mailto:u3560307@connect.hku.hk">3035603071</a>]</li>
+                        <li>YOUNG, Chak Fung [<a href="mailto:u3546816@connect.hku.hk">3035468160</a>]</li>
+                    </ul>
+                </p>
+            </div>
             <div>
                 <header><h3>Background</h3></header>
                 <p>
@@ -46,13 +77,29 @@
                 <header><h3>Objective</h3></header>
                 <p>
                     The project aims to create a modular machine learning model that can watch surveillance
-                     footage 
+                     footage and detect missing vehicles. Our goal is to create the model such that it is
+                     lightweight and can run on multiple instances in parallel. It will test passing vehicles
+                     against properties listed in a database and create a judgment using a weighted
+                     distance metric.
+                    <br/>
+                    Currently, we are planning to create the model in Python. But if opportunity allows for it,
+                     we plan to recreate the model in Rust for better security and performance.
                 </p>
             </div>
         </section>
         
         <section>
             <header><h2>Project Progress</h2></header>
+            <table>
+                <!-- 
+                    Date and time must follow the ISO8601 standard => https://www.iso.org/iso-8601-date-and-time-format.html
+                 -->
+                <tr>
+                    <th>Milestone</th><th>Date Accomplished</th>
+                </tr>
+                <tr><td>Detailed Project Proposal</td><td>2022-10-02</td></tr>
+                <tr><td>Project Website Initialized</td><td>2022-10-02</td></tr>
+            </table>
         </section>
         
         <section>

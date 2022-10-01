@@ -1,5 +1,14 @@
 body {
     background-color: #E5FFF6;
+    margin: 4% 10% 4% 10%;
+}
+table, td, th {
+    border: 2px solid black;
+    background-color: #F6F4F1;
+}
+td, th {
+    text-align: center;
+    padding: 10px;
 }
 
 #projectTitle {
