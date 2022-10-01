@@ -5,8 +5,8 @@
 ## Project Background
 
 ### General Background
-Statistically speaking, there were 352 cases of Missing Motor Vehicles in Hong Kong during the period of Jan-Jun 2022 <sup>\[1\]</sup>. This is a phenomenon that is common in urban cities. In Europe, Missing Motor Vehicles caused 7.4 billion Dollars worth of damages in 2020 <sup>\[2\]</sup>.  
-The current issue with Motor Vehicles Theft is that most countries still rely on old methods for identifying and tracking down stolen vehicles. For example in the United Kindom, law enforcement relies on methods such as random street checks, licence plate checking of stolen vehicles and tips from third-party websites <sup>\[3\]</sup>.
+Statistically speaking, there were 352 cases of Missing Motor Vehicles in Hong Kong during the period of Jan-Jun 2022 \[1\]. This is a phenomenon that is common in urban cities. In Europe, Missing Motor Vehicles caused 7.4 billion Dollars worth of damages in 2020 \[2\].  
+The current issue with Motor Vehicles Theft is that most countries still rely on old methods for identifying and tracking down stolen vehicles. For example in the United Kindom, law enforcement relies on methods such as random street checks, licence plate checking of stolen vehicles and tips from third-party websites \[2\].
 
 ### Technical Problem to be solved
 Despite our advances in technology, the identification and spotting of stolen vehicles is a very labour-intensive and time-consuming task.  
@@ -96,6 +96,5 @@ Interim Report | 25/11/2022
 
 
 ## Bibliography IEEE Standard
-1. https://www.police.gov.hk/ppp_en/09_statistics/csc.html
-2. https://en.wikipedia.org/wiki/Motor_vehicle_theft
-3. https://en.wikipedia.org/wiki/Motor_vehicle_theft#Recovery_of_stolen_vehicles
+\[1\] Hong Kong Police Force. (2022, Sep 1). Crime Statistics Comparison \[Online\]. Available: https://www.police.gov.hk/ppp_en/09_statistics/csc.html \[Accessed: 2022 Oct 01\]  
+\[2\] Wikipedia. (2022, Sep 29). Motor vehicle theft \[Online\]. Available: https://en.wikipedia.org/wiki/Motor_vehicle_theft \[Accessed: 2022 Oct 01\]
