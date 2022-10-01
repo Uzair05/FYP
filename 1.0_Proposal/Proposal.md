@@ -20,7 +20,7 @@ By enabling cameras with an efficient vehicle detection system, we will be able 
 1. We will be able to reduce the amount of manpower required to locate and identify vehicles.  
 By setting up cameras in high-traffic areas we can effectively watch a large number of vehicles and increase our odds of catching the stolen vehicles.
 2. We will be able to create a map of stolen vehicles' paths.  
-By aligning the spotting of the stolen vehicle along multiple cameras at a different locations, we will be able to map out the route of the stolen vehicle and possibly predict where it is most suitable to be intercepted.
+By aligning the spotting of the stolen vehicle along multiple cameras at different locations, we will be able to create a timestamp of the camera location and the time it spotted the vehicle allowing us to map out the route of the stolen vehicle and possibly predict where it is most suitable to be intercepted.
 
 ## Project Objective
 This project aims at creating a system that captures a live video stream of traffic and sends a time-stamped alert to authorities whenever a stolen vehicle is identified on the camera.  
